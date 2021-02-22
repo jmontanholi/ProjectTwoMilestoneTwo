@@ -4,8 +4,6 @@
 
 > In this project we are meant to make a responsive website based on this website: https://perma.cc/M5ZV-Q2D6
 
-![screenshot](./app_screenshot.png)
-
 ## Built With
 
 - HTML5
