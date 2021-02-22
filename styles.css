@@ -1,9 +1,11 @@
+/* General RUle */
 html * {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
 }
 
+/* Header */
 .mobile-nav {
   display: flex;
   justify-content: space-between;
@@ -63,6 +65,7 @@ html * {
 .header {
   position: fixed;
   width: 100%;
+  z-index: 1;
 }
 
 .header a {
@@ -118,4 +121,11 @@ html * {
 
 .desktop-search {
     padding: 10px;
+}
+
+/* Main */
+
+/* Footer */
+footer {
+  margin-top: 400px; 
 }
