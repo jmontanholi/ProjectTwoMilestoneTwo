@@ -30,12 +30,13 @@ html * {
   cursor: pointer;
 }
 
-.search {
+.search,
+.desktop-search {
   color:rgb(158, 158, 158);
 }
 
 .search:hover {
-  color: #555;
+  color: #ddd;
   cursor: pointer;
 }
 
@@ -59,35 +60,62 @@ html * {
   height: 16px;
 }
 
-header a {
+.header {
+  position: fixed;
+  width: 100%;
+}
+
+.header a {
   font-size: 14px;
   color: hsla(0,0%,100%,.6);
   text-decoration: none;
+  margin: 0 5px 0 5px;
 }
+
 
 .nav-1 {
   display: none;
   justify-content: space-between;
   background-color: black;
+  padding: 3px 20px 3px 20px;
 }
 
 .nav-2 {
   display: none;
   justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
 }
 
 .nav-2 a {
-  color: #555;
+  color: #aaa;
 }
 
 .nav-a-div {
   text-align: center;
   background-color: #fd3;
-  padding: 17px;
+  padding: 12px;
+  color: #333;
 }
 
 .nav-a {
   font-family: sans-serif;
   font-size: 11px;
   color: black;
+}
+
+.active {
+    color: #fff;
+    font-weight: bold;
+}
+
+.left-border {
+    align-self: stretch;
+    border-left: solid 1px #eee;
+    display: flex;
+    align-items: center;
+}
+
+.desktop-search {
+    padding: 10px;
 }

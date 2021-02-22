@@ -1,0 +1,22 @@
+@media (max-width: 1000px) {
+    .nav-a-div {
+        margin-top: -18px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .mobile-nav {
+        display: none;
+    }
+
+    .nav-1,
+    .nav-2 {
+        display: flex;
+    }
+
+    .nav-a-div {
+        text-align: left;
+        padding-left: 25px;
+        margin-top: -18px;
+    }
+}
