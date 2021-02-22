@@ -129,8 +129,7 @@ html * {
 footer {
   display: flex;
   flex-direction: column;
-  margin-top: 400px; 
-  border: 1px solid red;
+  margin-top: 400px;
 }
 
 .footer-1 {
@@ -142,23 +141,58 @@ footer {
 .footer-icons {
   display: flex;
   justify-content: center;
+  margin: 30px 30px;
 }
 
-.footer-icons i {
-  font-size: 17px;
-  padding: 1.1%;
+.footer-icons a {
+  width: 35px;
+  height: 35px;
   color: white;
   margin-left: 10px;
   background-color: #333;
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
 }
 
 .footer-text {
   display: flex;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
 .footer-text a {
   color: #aaa;
   text-decoration: none;
+  font-size: 11px;
+  margin-left: 10px;
+}
+
+.footer-2 {
+  background-color: #000;
+}
+
+.footer-copy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #aaa;
+  font-size: 12px;
+}
+
+.footer-img-1 {
+  width: 37px;
+  height: 9px;
+  margin-right: 5px;
+}
+
+.footer-img-2 {
+  width: 60px;
+  height: 15px;
+  margin-left: 3px;
+  margin-top: 3px;
 }
