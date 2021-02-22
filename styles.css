@@ -127,5 +127,38 @@ html * {
 
 /* Footer */
 footer {
+  display: flex;
+  flex-direction: column;
   margin-top: 400px; 
+  border: 1px solid red;
+}
+
+.footer-1 {
+  display: flex;
+  flex-direction: column;
+  background-color: #131313;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-icons i {
+  font-size: 17px;
+  padding: 1.1%;
+  color: white;
+  margin-left: 10px;
+  background-color: #333;
+  border-radius: 50%;
+}
+
+.footer-text {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-text a {
+  color: #aaa;
+  text-decoration: none;
 }
