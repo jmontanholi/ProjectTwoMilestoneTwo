@@ -1,0 +1,26 @@
+html * {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+header a {
+  font-size: 14px;
+  color: hsla(0,0%,100%,.6);
+  text-decoration: none;
+}
+
+.nav-1 {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.nav-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-2 a {
+  color: #555;
+}
