@@ -4,6 +4,61 @@ html * {
   font-family: sans-serif;
 }
 
+.mobile-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mobile-icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.mobile-icons i {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-top: none;
+  border-bottom: none;
+}
+
+.bars {
+  color: red;
+}
+
+.bars {
+  cursor: pointer;
+}
+
+.search {
+  color:rgb(158, 158, 158);
+}
+
+.search:hover {
+  color: #555;
+  cursor: pointer;
+}
+
+.logo-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 30%;
+  height: auto;
+}
+
+.logo-a {
+    width: 100%;
+    padding: 16px 20px;
+    background-color: black; 
+}
+
+.logo {
+  max-width: 66px;
+  height: 16px;
+}
+
 header a {
   font-size: 14px;
   color: hsla(0,0%,100%,.6);
@@ -11,16 +66,28 @@ header a {
 }
 
 .nav-1 {
-  display: flex;
+  display: none;
   justify-content: space-between;
   background-color: black;
 }
 
 .nav-2 {
-  display: flex;
+  display: none;
   justify-content: space-between;
 }
 
 .nav-2 a {
   color: #555;
+}
+
+.nav-a-div {
+  text-align: center;
+  background-color: #fd3;
+  padding: 17px;
+}
+
+.nav-a {
+  font-family: sans-serif;
+  font-size: 11px;
+  color: black;
 }
