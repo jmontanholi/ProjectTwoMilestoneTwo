@@ -6,7 +6,7 @@
 
   .footer-2-text {
     font-size: 12px;
-    text-align: center;    
+    text-align: center;   
     margin: 10px 0 10px 0;
   }
 
@@ -146,7 +146,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-
+  
   .highlight-1::before {
     background: linear-gradient(to bottom, rgba(255, 0, 0, 0.6), rgba(255, 0, 0, 0.3), rgba(0, 0, 0, 1));
   }
