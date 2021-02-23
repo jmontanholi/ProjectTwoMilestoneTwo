@@ -256,12 +256,21 @@ a.active {
   justify-content: flex-end;
 }
 
+/* Latest funding */
+
 .latest-funding-container {
 	display: flex;
 	flex-direction: column;
-	margin-top: 350px;
+	margin: 350px 20px 0 20px;
 	height: 1150px;
-	border: 1px solid green;
+}
+
+.lf-content {
+  margin: 20px 0 20px 0;
+}
+
+.lf-img {
+  margin-bottom: -55px;
 }
 
 .lf-title-div {
@@ -270,10 +279,14 @@ a.active {
 	background-color: white;
 }
 
+.lf-title-div a:hover {
+  color: black;
+}
+
 .lf-title {
 	color: #f42;
 	font-size: 23px;
-	font-weight: bold;
+	font-weight: bolder;
 	margin: 9px;
 }
 
@@ -290,6 +303,72 @@ a.active {
 .lf-title,
 .lf-txt {
 	text-decoration: none;
+}
+
+.lf-titles {
+  color: white;
+  font-weight: bold;
+  padding: 0 5px 10px 5px;
+  background-color: #f42;
+}
+
+.lf-titles h3 {
+  margin-left: 70px;
+  margin-top: -10px;
+}
+
+.lf-subtitle {
+  background-color: #ff442214;
+  padding: 15px;
+  padding-left: 75px;
+} 
+
+.lf-subtitle-price {
+  font-weight: bold;
+}
+
+.lf-subtitle-serie {
+  font-size: 12px;
+  color: #999;
+  margin-top: 2px;
+}
+
+.lf-body {
+  border-bottom: solid 1px #f42;
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+
+.lf-color {
+  background-color: #f79c8814;
+}
+
+.lf-footer {
+  padding: 15px 10px 15px 10px;
+  font-size: 11px;
+  line-height: 160%;
+}
+
+.lf-footer a {
+  color: #666;
+  text-decoration: none;
+}
+
+.lf-footer a span {
+  color: #999;
+}
+.lf-body-links {
+  display: block;
+  text-decoration: none;
+  color: #666;
+  font-size: 13px;
+  line-height: 180%;
+  margin-left: 15px;
+}
+
+.lf-body-links i {
+  color: black;
+  margin-right: 5px;
 }
 
 /* Footer */
