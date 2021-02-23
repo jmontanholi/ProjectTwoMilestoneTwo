@@ -1,5 +1,5 @@
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .nav-a-div {
       margin-top: -19px;
     }
@@ -28,13 +28,8 @@
       border-radius: 0;
     }
 
-    .highlight-grid {
-      height: 380px;
-    }
-
     .highlight-title {
-      font-size: 30px;
-      margin-top: 220px;
+      font-size: 15px;
     }
 
     .highlight-title-2 {
@@ -47,6 +42,20 @@
 
     .highlight-txt {
       font-size: 10px;
+    }
+
+    .highlight-grid {
+      margin: 8px;
+    }
+
+    .highlight-1,
+    .highlight-2,
+    .highlight-3 {
+      height: 200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      margin-bottom: 8px;
     }
 }
 
@@ -67,6 +76,12 @@
     margin-top: 220px;
   }
 
+  .highlight-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
   .highlight-title-2 {
     font-size: 15px;
   }
@@ -78,6 +93,7 @@
   .highlight-txt {
     font-size: 10px;
   }
+
 }
 
 @media (min-width: 1024px) {
@@ -98,7 +114,13 @@
 
     .highlight-1-logo {
       display: flex;
-    } 
+    }
+    
+    .highlight-1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
 
     .highlight-1::before {
       background: linear-gradient(to bottom,rgba(255, 0 , 0, 0.6), rgba(255, 0, 0, 0.3), rgba(0, 0, 0, 1));   
