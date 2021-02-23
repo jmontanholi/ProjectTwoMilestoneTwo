@@ -9,6 +9,7 @@
 /* Header */
 
 .mobile-nav {
+  display: block;
   display: flex;
   justify-content: space-between;
   background-color: white;
@@ -29,15 +30,12 @@
 
 .bars {
   color: red;
-}
-
-.bars {
   cursor: pointer;
 }
 
 .search,
 .desktop-search {
-  color:rgb(158, 158, 158);
+  color: rgb(158, 158, 158);
 }
 
 .search:hover {
@@ -57,7 +55,7 @@
 .logo-a {
   width: 100%;
   padding: 16px 20px;
-  background-color: black; 
+  background-color: black;
 }
 
 .logo {
@@ -69,7 +67,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-	overflow: hidden;
+  overflow: hidden;
   z-index: 10;
 }
 
@@ -81,7 +79,7 @@
 }
 
 .header-hover:hover {
-	color: white;
+  color: white;
 }
 
 .nav-1 {
@@ -150,8 +148,8 @@ a.active {
 .highlight-1 {
   background: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg") no-repeat;
   position: relative;
-	background-size: cover;
-	z-index: -2;
+  background-size: cover;
+  z-index: -2;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -165,13 +163,13 @@ a.active {
   right: 0;
   bottom: 0;
   left: 0;
-	z-index: -1;
+  z-index: -1;
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 1));
 }
 
 .highlight-1-logo {
   justify-content: space-between;
-	color: white;
+  color: white;
   display: none;
   font-size: 13px;
   margin: 15px;
@@ -182,9 +180,9 @@ a.active {
 }
 
 .highlight-content {
-	margin: 20px; 
+  margin: 20px;
   color: white;
-	z-index: 1;
+  z-index: 1;
 }
 
 .highlight-title {
@@ -217,9 +215,9 @@ a.active {
 
 .highlight-2 {
   background: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Untitled-design-2021-01-26T112752.972-796x417.png") no-repeat;
-	background-size: 100% 100%;
+  background-size: 100% 100%;
   position: relative;
-	z-index: -2;
+  z-index: -2;
   grid-area: item2;
 }
 
@@ -230,15 +228,15 @@ a.active {
   right: 0;
   bottom: 0;
   left: 0;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 1));  
-	z-index: -1;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 1));
+  z-index: -1;
 }
 
 .highlight-3 {
-  background:url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Gemini2-duplicates-monitor-alert-e1611566958933-796x420.png") no-repeat;
-	background-size: 100% 100%;
+  background: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Gemini2-duplicates-monitor-alert-e1611566958933-796x420.png") no-repeat;
+  background-size: 100% 100%;
   position: relative;
-	z-index: -2;
+  z-index: -2;
   grid-area: item3;
 }
 
@@ -263,19 +261,19 @@ a.active {
 /* Latest funding */
 
 .latest-funding-container {
-	display: flex;
-	flex-direction: column;
-	margin: 350px 20px 0 20px;
-	height: 1150px;
+  display: flex;
+  flex-direction: column;
+  margin: 350px 20px 0 20px;
+  height: 1150px;
 }
 
 .lf-content {
-	flex: 1 1 300px;
+  flex: 1 1 300px;
   margin: 20px 5px 20px 5px;
 }
 
 .lf-4 {
-	display: none;
+  display: none;
 }
 
 .lf-img {
@@ -283,14 +281,14 @@ a.active {
 }
 
 .lf-title-div {
-	display: flex;
-	flex-direction: column;
-	background-color: white;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
 }
 
 .lf-title-txt {
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .lf-title-div a:hover {
@@ -298,25 +296,25 @@ a.active {
 }
 
 .lf-title {
-	color: #f42;
-	font-size: 23px;
-	font-weight: bolder;
-	margin: 9px;
+  color: #f42;
+  font-size: 23px;
+  font-weight: bolder;
+  margin: 9px;
 }
 
 .lf-title i {
-	font-size: 15px;
+  font-size: 15px;
 }
 
 .lf-txt {
-	color: #f42;
-	font-size: 14px;
-	margin: 5px 10px;
+  color: #f42;
+  font-size: 14px;
+  margin: 5px 10px;
 }
 
 .lf-title,
 .lf-txt {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .lf-titles {
@@ -335,7 +333,7 @@ a.active {
   background-color: #ff442214;
   padding: 15px;
   padding-left: 75px;
-} 
+}
 
 .lf-subtitle-price {
   font-weight: bold;
@@ -416,7 +414,7 @@ footer {
   justify-content: center;
   align-items: center;
   text-decoration: none;
-	border: 2px solid #333;
+  border: 2px solid #333;
 }
 
 .footer-text {
@@ -433,11 +431,11 @@ footer {
 }
 
 .footer-hover-a:hover {
-	background-color: #131313;
+  background-color: #131313;
 }
 
 .footer-hover:hover {
-	color: white;
+  color: white;
 }
 
 .footer-2 {
@@ -468,19 +466,19 @@ footer {
 }
 
 .absolute-btn {
-	position: fixed;
-	bottom: 15px;
-	right: 15px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 45px;
-	height: 45px;
-	border-radius: 50%;
-	background-color: #146FF8;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #146FF8;
 }
 
 .absolute-btn i {
-	font-size: 30px;
-	color: white;
+  font-size: 30px;
+  color: white;
 }
