@@ -1,4 +1,5 @@
-@media (max-width: 1000px) {
+
+@media (max-width: 768px) {
     .nav-a-div {
       margin-top: -19px;
     }
@@ -29,7 +30,7 @@
 
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1024px) {
     .mobile-nav {
       display: none;
     }
@@ -43,5 +44,13 @@
       text-align: left;
       padding-left: 25px;
       margin-top: -19px;
+    }
+
+    .highlight-1-logo {
+      display: flex;
+    } 
+
+    .highlight-1::before {
+      background: linear-gradient(to bottom,rgba(255, 0 , 0, 0.6), rgba(255, 0, 0, 0.3), rgba(0, 0, 0, 1));   
     }
 }
