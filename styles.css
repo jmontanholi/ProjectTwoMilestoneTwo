@@ -64,8 +64,10 @@ html * {
 
 .header {
   position: fixed;
+  top: 0;
   width: 100%;
-	z-index: 1;
+	overflow: hidden;
+  z-index: 10;
 }
 
 .header a {
@@ -77,14 +79,6 @@ html * {
 
 .header-hover:hover {
 	color: white;
-}
-
-.nav-2-hover:hover {
-	color: black;
-}
-
-.desktop-search:hover {
-	color: #666;
 }
 
 .nav-1 {
@@ -99,6 +93,11 @@ html * {
   justify-content: space-between;
   align-items: center;
   padding-left: 20px;
+  background-color: #fff;
+}
+
+.nav-2-hover:hover {
+  color: black;
 }
 
 .nav-2 a {
@@ -124,19 +123,48 @@ a.active {
 }
 
 .left-border {
-    align-self: stretch;
-    border-left: solid 1px #eee;
-    display: flex;
-    align-items: center;
+  align-self: stretch;
+  border-left: solid 1px #eee;
+  display: flex;
+  align-items: center;
 }
 
 .desktop-search {
-    padding: 10px;
+  padding: 10px;
+}
+
+.desktop-search:hover {
+  color: #666;
 }
 
 /* Main */
 
+.grid {
+  margin-top: 98px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.highlight-1 {
+  background: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg") no-repeat;
+  background-size: 100% 100%;
+  height: 300px;
+  width: 100%;
+  position: relative;
+}
+
+.highlight-1::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to bottom,rgba(255, 0 , 0, 0.6), rgba(255, 0, 0, 0.3), rgba(0, 0, 0, 1));   
+}
+
 /* Footer */
+
 footer {
   display: flex;
   flex-direction: column;
