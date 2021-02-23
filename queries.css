@@ -28,6 +28,49 @@
       border-radius: 0;
     }
 
+    .highlight-grid {
+      height: 380px;
+    }
+
+    .highlight-title {
+      font-size: 30px;
+      margin-top: 220px;
+    }
+
+    .highlight-title-2 {
+      font-size: 15px;
+    }
+
+    .highlight-content {
+      margin: 10px;
+    }
+
+    .highlight-txt {
+      font-size: 10px;
+    }
+}
+
+@media (min-width: 768px) {
+  .highlight-grid {
+    height: 380px;
+  }
+
+  .highlight-title {
+    font-size: 30px;
+    margin-top: 220px;
+  }
+
+  .highlight-title-2 {
+    font-size: 15px;
+  }
+
+  .highlight-content {
+    margin: 10px;
+  }
+
+  .highlight-txt {
+    font-size: 10px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -53,4 +96,5 @@
     .highlight-1::before {
       background: linear-gradient(to bottom,rgba(255, 0 , 0, 0.6), rgba(255, 0, 0, 0.3), rgba(0, 0, 0, 1));   
     }
+
 }
