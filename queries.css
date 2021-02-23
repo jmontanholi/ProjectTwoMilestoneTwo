@@ -53,6 +53,13 @@
 @media (min-width: 768px) {
   .highlight-grid {
     height: 380px;
+    display: grid;
+    grid-gap: 8px;
+    grid-template-areas: 
+    'item1 item1 item1 item1 item2 item2' 
+    'item1 item1 item1 item1 item2 item2'
+    'item1 item1 item1 item1 item3 item3'
+    'item1 item1 item1 item1 item3 item3';
   }
 
   .highlight-title {
@@ -97,4 +104,14 @@
       background: linear-gradient(to bottom,rgba(255, 0 , 0, 0.6), rgba(255, 0, 0, 0.3), rgba(0, 0, 0, 1));   
     }
 
+    .highlight-grid {
+      height: 475px;
+      display: grid;
+      grid-gap: 8px;
+      grid-template-areas: 
+      'item1 item1 item1 item1 item2 item2' 
+      'item1 item1 item1 item1 item2 item2'
+      'item1 item1 item1 item1 item3 item3'
+      'item1 item1 item1 item1 item3 item3';
+    }
 }
