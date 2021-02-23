@@ -141,7 +141,7 @@ a.active {
 /* Main */
 
 .highlight-grid {
-  margin-top: 102px;
+  margin-top: 150px;
   height: 300px;
 }
 
@@ -254,6 +254,43 @@ a.active {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+}
+
+.latest-funding-container {
+	display: flex;
+	flex-direction: column;
+	margin-top: 350px;
+	height: 200px;
+	border: 1px solid green;
+}
+
+.lf-title-div {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid red;
+	background-color: white;
+}
+
+.lf-title {
+	color: #f42;
+	font-size: 23px;
+	font-weight: bold;
+	margin: 9px;
+}
+
+.lf-title i {
+	font-size: 15px;
+}
+
+.lf-txt {
+	color: #f42;
+	font-size: 14px;
+	margin: 5px 10px;
+}
+
+.lf-title,
+.lf-txt {
+	text-decoration: none;
 }
 
 /* Footer */
