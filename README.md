@@ -13,21 +13,21 @@
 
 ## Live Demo
 
-To see the live Demo of the project click [here](https://livedemo.com)
+To see the live Demo of the project click [here](https://jmontanholi.github.io/ProjectTwoMicroverse/)
 
 ## Authors
 
 👤 **João Vítor Montanholi Nunes**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/jmontanholi)
+- Twitter: [@twitterhandle](https://twitter.com/MontanholiNunes)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/joaovitormontanholi/)
 
 👤 **Marco Parra**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/mrigorir)
+- Twitter: [@twitterhandle](https://twitter.com/marcoparra311)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/marco-parra-leal-a93318101/)
 
 ## 🤝 Contributing
 
