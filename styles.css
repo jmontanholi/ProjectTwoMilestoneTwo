@@ -169,7 +169,6 @@ a.active {
 footer {
   display: flex;
   flex-direction: column;
-  margin-top: 400px;
 }
 
 .footer-1 {
@@ -244,4 +243,22 @@ footer {
   height: 15px;
   margin-left: 3px;
   margin-top: 3px;
+}
+
+.absolute-btn {
+	position: fixed;
+	bottom: 15px;
+	right: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	background-color: #146FF8;
+}
+
+.absolute-btn i {
+	font-size: 30px;
+	color: white;
 }
