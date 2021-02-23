@@ -266,7 +266,12 @@ a.active {
 }
 
 .lf-content {
-  margin: 20px 0 20px 0;
+	flex: 1 1 300px;
+  margin: 20px 5px 20px 5px;
+}
+
+.lf-4 {
+	display: none;
 }
 
 .lf-img {
@@ -277,6 +282,11 @@ a.active {
 	display: flex;
 	flex-direction: column;
 	background-color: white;
+}
+
+.lf-title-txt {
+	display: flex;
+	flex-direction: column;
 }
 
 .lf-title-div a:hover {

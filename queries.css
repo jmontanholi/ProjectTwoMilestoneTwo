@@ -99,6 +99,30 @@
   .nav-a-div {
     margin-top: -19px;
   }
+
+  .lf-content-flex {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .latest-funding-container {
+    margin-top: 50px;
+  }
+
+  .lf-title-txt {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .lf-txt {
+    margin: 0 5px 0 5px;
+  }
+
+  .txt-2 {
+    border-right: 1px solid #f42 ;
+    border-left: 1px solid #f42;
+    padding: 0 5px 0 5px;
+  }
 }
 
 @media (min-width: 1024px) {
