@@ -6,7 +6,7 @@
 
   .footer-2-text {
     font-size: 12px;
-    text-align: center;        
+    text-align: center;     
     margin: 10px 0 10px 0;
   }
 
@@ -66,11 +66,7 @@
     height: 380px;
     display: grid;
     grid-gap: 8px;
-    grid-template-areas: 
-    'item1 item1 item1 item1 item2 item2' 
-    'item1 item1 item1 item1 item2 item2'
-    'item1 item1 item1 item1 item3 item3'
-    'item1 item1 item1 item1 item3 item3';
+    grid-template-areas:'item1 item1 item1 item1 item2 item2' 'item1 item1 item1 item1 item2 item2''item1 item1 item1 item1 item3 item3''item1 item1 item1 item1 item3 item3';
   }
 
   .highlight-title {
@@ -159,11 +155,7 @@
     height: 475px;
     display: grid;
     grid-gap: 8px;
-    grid-template-areas: 
-    'item1 item1 item1 item1 item2 item2' 
-    'item1 item1 item1 item1 item2 item2'
-    'item1 item1 item1 item1 item3 item3'
-    'item1 item1 item1 item1 item3 item3';
+    grid-template-areas: 'item1 item1 item1 item1 item2 item2' 'item1 item1 item1 item1 item2 item2' 'item1 item1 item1 item1 item3 item3' 'item1 item1 item1 item1 item3 item3';
   }
 
   .lf-4 {
