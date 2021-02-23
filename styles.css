@@ -53,9 +53,9 @@ html * {
 }
 
 .logo-a {
-    width: 100%;
-    padding: 16px 20px;
-    background-color: black; 
+  width: 100%;
+  padding: 16px 20px;
+  background-color: black; 
 }
 
 .logo {
@@ -193,7 +193,8 @@ a.active {
   font-size: 26px;
 }
 
-.highlight-title, .highlight-title-2 {
+.highlight-title, 
+.highlight-title-2 {
   font-family: Avalon, sans-serif;
   font-weight: bold;
 }
