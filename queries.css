@@ -6,7 +6,7 @@
 
   .footer-2-text {
     font-size: 12px;
-    text-align: center;     
+    text-align: center;    
     margin: 10px 0 10px 0;
   }
 
@@ -66,7 +66,7 @@
     height: 380px;
     display: grid;
     grid-gap: 8px;
-    grid-template-areas:'item1 item1 item1 item1 item2 item2' 'item1 item1 item1 item1 item2 item2''item1 item1 item1 item1 item3 item3''item1 item1 item1 item1 item3 item3';
+    grid-template-areas: 'item1 item1 item1 item1 item2 item2' 'item1 item1 item1 item1 item2 item2''item1 item1 item1 item1 item3 item3''item1 item1 item1 item1 item3 item3';
   }
 
   .highlight-title {
@@ -115,7 +115,7 @@
   }
 
   .txt-2 {
-    border-right: 1px solid #f42 ;
+    border-right: 1px solid #f42;
     border-left: 1px solid #f42;
     padding: 0 5px 0 5px;
   }
@@ -128,7 +128,7 @@
 
   .nav-1,
   .nav-2 {
-     display: flex;
+    display: flex;
   }
 
   .nav-a-div {
@@ -140,7 +140,7 @@
   .highlight-1-logo {
     display: flex;
   }
-    
+  
   .highlight-1 {
     display: flex;
     flex-direction: column;
@@ -148,7 +148,7 @@
   }
 
   .highlight-1::before {
-    background: linear-gradient(to bottom, rgba(255, 0 , 0, 0.6), rgba(255, 0, 0, 0.3), rgba(0, 0, 0, 1));   
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 0.6), rgba(255, 0, 0, 0.3), rgba(0, 0, 0, 1));
   }
 
   .highlight-grid {
