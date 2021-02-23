@@ -19,15 +19,15 @@ To see the live Demo of the project click [here](https://jmontanholi.github.io/P
 
 👤 **João Vítor Montanholi Nunes**
 
-- GitHub: [@githubhandle](https://github.com/jmontanholi)
-- Twitter: [@twitterhandle](https://twitter.com/MontanholiNunes)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/joaovitormontanholi/)
+- GitHub: [jmontanholi](https://github.com/jmontanholi)
+- Twitter: [MontanholiNunes](https://twitter.com/MontanholiNunes)
+- LinkedIn: [joaovitormontanholi](https://www.linkedin.com/in/joaovitormontanholi/)
 
 👤 **Marco Parra**
 
-- GitHub: [@githubhandle](https://github.com/mrigorir)
-- Twitter: [@twitterhandle](https://twitter.com/marcoparra311)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/marco-parra-leal-a93318101/)
+- GitHub: [mrigorir](https://github.com/mrigorir)
+- Twitter: [marcoparra311](https://twitter.com/marcoparra311)
+- LinkedIn: [marco-parra-leal](https://www.linkedin.com/in/marco-parra-leal-a93318101/)
 
 ## 🤝 Contributing
 
