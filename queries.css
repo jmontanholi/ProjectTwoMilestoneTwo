@@ -165,4 +165,15 @@
       'item1 item1 item1 item1 item3 item3'
       'item1 item1 item1 item1 item3 item3';
     }
+
+    .lf-4 {
+      display: block;
+    }
+
+    .lf-title-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
 }
