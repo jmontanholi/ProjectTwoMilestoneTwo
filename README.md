@@ -4,6 +4,10 @@
 
 > In this project we are meant to make a responsive website based on this website: https://perma.cc/M5ZV-Q2D6
 
+# Project Screenshot
+
+> https://i.imgur.com/m0sUTcx.png
+
 ## Built With
 
 - HTML5
@@ -49,7 +53,7 @@ To see the live Demo of the project click [here](https://livedemo.com)
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/jmontanholi/ProjectTwoMicroverse/issues).
 
 ## Show your support
 
