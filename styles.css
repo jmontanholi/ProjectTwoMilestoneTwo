@@ -73,7 +73,7 @@
 
 .header a {
   font-size: 14px;
-  color: hsla(0, 0%, 100%, .6);
+  color: hsla(0, 0%, 100%, 0.6);
   text-decoration: none;
   margin: 0 5px 0 5px;
 }
@@ -210,7 +210,7 @@ a.active {
 
 .highlight-txt,
 .highlight-txt a {
-  color: #ffffff99;
+  color: #fff9;
 }
 
 .highlight-2 {
@@ -291,6 +291,32 @@ a.active {
   flex-direction: column;
 }
 
+.footer-icons a {
+  width: 35px;
+  height: 35px;
+  color: white;
+  margin-left: 10px;
+  background-color: #333;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border: 2px solid #333;
+}
+
+.lf-footer a {
+  color: #666;
+  text-decoration: none;
+}
+
+.footer-text a {
+  color: #aaa;
+  text-decoration: none;
+  font-size: 11px;
+  margin-left: 10px;
+}
+
 .lf-title-div a:hover {
   color: black;
 }
@@ -361,11 +387,6 @@ a.active {
   line-height: 160%;
 }
 
-.lf-footer a {
-  color: #666;
-  text-decoration: none;
-}
-
 .lf-footer a span {
   color: #999;
 }
@@ -403,31 +424,10 @@ footer {
   margin: 30px 30px;
 }
 
-.footer-icons a {
-  width: 35px;
-  height: 35px;
-  color: white;
-  margin-left: 10px;
-  background-color: #333;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  border: 2px solid #333;
-}
-
 .footer-text {
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
-}
-
-.footer-text a {
-  color: #aaa;
-  text-decoration: none;
-  font-size: 11px;
-  margin-left: 10px;
 }
 
 .footer-hover-a:hover {
@@ -475,7 +475,7 @@ footer {
   width: 45px;
   height: 45px;
   border-radius: 50%;
-  background-color: #146FF8;
+  background-color: #146ff8;
 }
 
 .absolute-btn i {
