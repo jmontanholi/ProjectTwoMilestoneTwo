@@ -463,6 +463,14 @@ a.active {
   text-decoration: none;
 }
 
+.subtitle-left {
+  margin: 15px;
+}
+
+.subtitle-txt {
+  font-weight: bold;
+  margin-top: 3px;
+}
 
 .categories-img-txt a {
   color: white;
