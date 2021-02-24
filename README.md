@@ -17,7 +17,7 @@
 
 ## Live Demo
 
-To see the live Demo of the project click [here](https://livedemo.com)
+To see the live Demo of the project click [here](https://jmontanholi.github.io/ProjectTwoMicroverse/)
 
 ## Getting started
 
