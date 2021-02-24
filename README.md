@@ -13,21 +13,37 @@
 
 ## Live Demo
 
-To see the live Demo of the project click [here](https://jmontanholi.github.io/ProjectTwoMicroverse/)
+To see the live Demo of the project click [here](https://livedemo.com)
+
+## Getting started
+
+### Prerequisites
+
+- Create an account on github
+
+- Install gitbash or use git on the command line.
+ 
+- Use an IDE of your preference such as VScode.
+
+### Steps to follow
+
+- Clone the repository to your locaL machine.
+
+- Open the index.html file with the browser of your preference.
 
 ## Authors
 
 👤 **João Vítor Montanholi Nunes**
 
-- GitHub: [jmontanholi](https://github.com/jmontanholi)
-- Twitter: [MontanholiNunes](https://twitter.com/MontanholiNunes)
-- LinkedIn: [joaovitormontanholi](https://www.linkedin.com/in/joaovitormontanholi/)
+- GitHub: [@githubhandle](https://github.com/githubhandle)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
 
 👤 **Marco Parra**
 
-- GitHub: [mrigorir](https://github.com/mrigorir)
-- Twitter: [marcoparra311](https://twitter.com/marcoparra311)
-- LinkedIn: [marco-parra-leal](https://www.linkedin.com/in/marco-parra-leal-a93318101/)
+- GitHub: [@githubhandle](https://github.com/githubhandle)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
 
 ## 🤝 Contributing
 
