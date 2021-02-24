@@ -6,7 +6,7 @@
 
 # Project Screenshot
 
-> https://i.imgur.com/m0sUTcx.png
+> 
 
 ## Built With
 
@@ -17,7 +17,7 @@
 
 ## Live Demo
 
-To see the live Demo of the project click [here](https://jmontanholi.github.io/ProjectTwoMicroverse/)
+To see the live Demo of the project click [here]()
 
 ## Getting started
 
@@ -43,11 +43,11 @@ To see the live Demo of the project click [here](https://jmontanholi.github.io/P
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
 
-👤 **Marco Parra**
+👤 **Eri-Ngozi Okereafor**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@errea](https://github.com/errea)
+- Twitter: [@Erreakay](https://twitter.com/Erreakay)
+- LinkedIn: [eri-ngozi-okereafor](https://www.linkedin.com/in/eri-ngozi-okereafor/)
 
 ## 🤝 Contributing
 
