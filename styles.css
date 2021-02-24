@@ -405,6 +405,23 @@ a.active {
   margin-right: 5px;
 }
 
+/* Categories */
+
+.categories-img {
+  background: linear-gradient(white, rgba(0, 0, 0, 0.9));
+}
+
+.categories-title h3 {
+  color: #f42;
+  font-size: 23px;
+  font-weight: bolder;
+  margin: 9px;
+}
+
+.categories-title i {
+  font-size: 15px;
+}
+
 /* Footer */
 
 footer {
