@@ -15,6 +15,22 @@
 
 To see the live Demo of the project click [here](https://livedemo.com)
 
+## Getting started
+
+### Prerequisites
+
+- Create an account on github
+
+- Install gitbash or use git on the command line.
+ 
+- Use an IDE of your preference such as VScode.
+
+### Steps to follow
+
+- Clone the repository to your locaL machine.
+
+- Open the index.html file with the browser of your preference.
+
 ## Authors
 
 👤 **João Vítor Montanholi Nunes**
