@@ -434,7 +434,38 @@ a.active {
 .categories-img {
   display: flex;
   flex: 1 1 200px;
+  flex-direction: column;
+  justify-content: flex-end;
   background: linear-gradient(white, rgba(0, 0, 0, 0.9));
+}
+
+.categories-img-txt {
+  color: white;
+  margin: 10px;
+}
+
+.ct-img-txt-title {
+  font-weight: 400;
+}
+
+.ct-img-txt-main {
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.ct-img-txt-sub {
+  color: #888;
+}
+
+.ct-img-txt-sub a {
+  color: #888 !important;
+  text-decoration: none;
+}
+
+
+.categories-img-txt a {
+  color: white;
 }
 
 .categories-subtitle-img {
