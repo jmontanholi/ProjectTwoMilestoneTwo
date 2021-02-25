@@ -258,12 +258,49 @@ a.active {
   justify-content: flex-end;
 }
 
+/* Latest News */
+
+.latest-news-container {
+  margin: 350px 20px 20px 20px;
+}
+
+.ln-title {
+  color: #f42;
+  font-size: 23px;
+  font-weight: bolder;
+  margin: 9px;
+}
+
+.ln-title i {
+  font-size: 15px;
+}
+
+.ln-content {
+  display: flex;
+  margin: 10px 0 10px 0;
+}
+
+.ln-img {
+  margin-right: 10px;
+}
+
+.ln-txt-title {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.ln-txt-sub {
+  color: #AAAAAA;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
 /* Latest funding */
 
 .latest-funding-container {
   display: flex;
   flex-direction: column;
-  margin: 350px 20px 0 20px;
+  margin: 0 20px 0 20px;
 }
 
 .lf-content {
