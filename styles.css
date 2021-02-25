@@ -619,6 +619,49 @@ a.active {
   border-bottom: 0.5px solid rgba(211, 181, 181, 0.658);
 }
 
+/* Latest deals */
+
+.latest-deals-container {
+  margin: 0 20px 20px 20px;
+}
+
+.ld-grid {
+  margin-left: 10px;
+}
+
+.ld-title {
+  color: #f42;
+  font-size: 23px;
+  font-weight: bolder;
+  margin: 9px;
+}
+
+.ld-title i {
+  font-size: 15px;
+}
+
+.ld-content {
+  display: flex;
+}
+
+.ld-txt {
+  margin-left: 10px;
+}
+
+.ld-txt-main {
+  font-weight: bold;
+}
+
+.ld-txt-sub {
+  margin-top: 5px;
+}
+
+.cut-txt {
+  text-decoration: line-through;
+  color: #AAAAAA;
+  font-size: 12px;
+}
+
 /* Footer */
 footer {
   display: flex;
