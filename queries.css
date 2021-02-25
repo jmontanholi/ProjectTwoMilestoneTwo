@@ -119,6 +119,22 @@
     height: 120px;
     width: 100%;
   }
+
+  .ld-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  .ld-content {
+    flex-direction: column;
+    margin-right: 10px;
+  }
+
+  .ld-img img {
+    height: 120px;
+    width: 100%;
+  }
 }
 
 @media (min-width: 1024px) {
