@@ -194,4 +194,15 @@
     height: 200px;
     width: 100%;
   }
+
+  .ld-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .ld-img img {
+    height: 200px;
+    width: 100%;
+  }
 }
