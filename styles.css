@@ -6,11 +6,6 @@
   font-family: sans-serif;
 }
 
-main {
-  width: 60%;
-  margin: auto;
-}
-
 /* Header */
 
 .mobile-nav {
@@ -620,7 +615,7 @@ a.active {
 }
 
 .categories-li {
-  color: #555555;
+  color: #555;
   font-size: 13px;
   padding: 10px 5px 10px 0;
   border-bottom: 0.5px solid rgba(211, 181, 181, 0.658);
@@ -633,7 +628,7 @@ a.active {
 }
 
 .ld-grid,
-.ld-txt  {
+.ld-txt {
   margin-left: 10px;
 }
 

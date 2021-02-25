@@ -154,10 +154,14 @@
     flex-direction: column;
     margin-right: 10px;
   }
-
 }
 
 @media (min-width: 1024px) {
+  main {
+    width: 60%;
+    margin: auto;
+  }
+  
   .mobile-nav {
     display: none;
   }
@@ -234,14 +238,14 @@
     grid-template-rows: repeat(2, 1fr);
   }
 
-  .ld-img img{
+  .ld-img img {
     height: 200px;
   }
 
   .highlight-title {
     font-size: 60px;
   }
-  
+
   .highlight-title-2 {
     font-size: 35px;
   }
