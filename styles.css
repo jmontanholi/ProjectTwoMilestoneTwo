@@ -290,7 +290,7 @@ a.active {
 }
 
 .ln-txt-sub {
-  color: #AAAAAA;
+  color: #aaa;
   font-size: 13px;
   margin-top: 5px;
 }
@@ -351,6 +351,15 @@ a.active {
   text-decoration: none;
   font-size: 11px;
   margin-left: 10px;
+}
+
+.ct-img-txt-sub a {
+  color: #888 !important;
+  text-decoration: none;
+}
+
+.categories-img-txt a {
+  color: white;
 }
 
 .lf-title-div a:hover {
@@ -534,11 +543,6 @@ a.active {
   color: #888;
 }
 
-.ct-img-txt-sub a {
-  color: #888 !important;
-  text-decoration: none;
-}
-
 .subtitle-left {
   margin: 15px;
 }
@@ -590,10 +594,6 @@ a.active {
 .subtitle-txt {
   font-weight: bold;
   margin-top: 3px;
-}
-
-.categories-img-txt a {
-  color: white;
 }
 
 .categories-subtitle-img {
@@ -659,7 +659,7 @@ a.active {
 
 .cut-txt {
   text-decoration: line-through;
-  color: #AAAAAA;
+  color: #aaa;
   font-size: 12px;
 }
 
