@@ -642,6 +642,7 @@ a.active {
 
 .ld-content {
   display: flex;
+  margin-top: 10px;
 }
 
 .ld-txt {
