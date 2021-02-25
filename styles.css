@@ -33,7 +33,8 @@
   cursor: pointer;
 }
 
-.search, .desktop-search {
+.search,
+.desktop-search {
   color: rgb(158, 158, 158);
 }
 
@@ -192,7 +193,8 @@ a.active {
   font-size: 26px;
 }
 
-.highlight-title, .highlight-title-2 {
+.highlight-title,
+.highlight-title-2 {
   font-family: Avalon, sans-serif;
   font-weight: bold;
 }
@@ -206,7 +208,8 @@ a.active {
   text-decoration: none;
 }
 
-.highlight-txt, .highlight-txt a {
+.highlight-txt,
+.highlight-txt a {
   color: #fff9;
 }
 
@@ -248,7 +251,8 @@ a.active {
   z-index: -1;
 }
 
-.highlight-2, .highlight-3 {
+.highlight-2,
+.highlight-3 {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -259,8 +263,7 @@ a.active {
 .latest-funding-container {
   display: flex;
   flex-direction: column;
-  margin: 350px 20px 0 20px;
-  height: 1150px;
+  margin: 0 20px 0 20px;
 }
 
 .lf-content {
@@ -334,7 +337,8 @@ a.active {
   margin: 5px 10px;
 }
 
-.lf-title, .lf-txt {
+.lf-title,
+.lf-txt {
   text-decoration: none;
 }
 
@@ -413,6 +417,10 @@ a.active {
   font-size: 15px;
 }
 
+.categories-container {
+  margin: 0 20px 0 20px;
+}
+
 .categories-content {
   display: flex;
   margin: 10px;
@@ -432,6 +440,42 @@ a.active {
   flex-direction: column;
   justify-content: flex-end;
   background-size: 100% 100%;
+}
+
+.ct-img-1 {
+  background: linear-gradient(rgba(77, 77, 77, 0.4), rgba(0, 0, 0, 0.9)), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1280px-GameStop_Globen-e1611550531323-368x276.jpg") no-repeat;
+}
+
+.ct-img-2 {
+  background: linear-gradient(rgba(77, 77, 77, 0.4), rgba(0, 0, 0, 0.9)), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Snag_3c8ecdc-368x276.png") no-repeat;
+}
+
+.ct-img-3 {
+  background: linear-gradient(rgba(77, 77, 77, 0.4), rgba(0, 0, 0, 0.9)), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2015/03/MacBook-USB-C-Feat-Img-730x365.jpg") no-repeat;
+}
+
+.ct-img-4 {
+  background: linear-gradient(rgba(77, 77, 77, 0.4), rgba(0, 0, 0, 0.9)), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/06/vintage-robot-368x276.jpg") no-repeat;
+}
+
+.ct-img-5 {
+  background: linear-gradient(rgba(77, 77, 77, 0.4), rgba(0, 0, 0, 0.9)), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/Untitled-design-13-368x276.png") no-repeat;
+}
+
+.ct-img-6 {
+  background: linear-gradient(rgba(77, 77, 77, 0.4), rgba(0, 0, 0, 0.9)), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/open-source-code-gq-368x276.png") no-repeat;
+}
+
+.ct-img-7 {
+  background: linear-gradient(rgba(77, 77, 77, 0.4), rgba(0, 0, 0, 0.9)), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/zoom-fundraising-gq-368x276.png") no-repeat;
+}
+
+.ct-img-8 {
+  background: linear-gradient(rgba(77, 77, 77, 0.4), rgba(0, 0, 0, 0.9)), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/toyota-suv-new-ev-car-future-electric-japan-368x276.jpg") no-repeat;
+}
+
+.ct-img-9 {
+  background: linear-gradient(rgba(77, 77, 77, 0.4), rgba(0, 0, 0, 0.9)), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/amplified-368x276.jpg") no-repeat;
 }
 
 .categories-img-txt {
@@ -462,10 +506,48 @@ a.active {
   margin: 15px;
 }
 
-.subtitle-right {
+.ct-sub1 {
   background: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1280px-20th_Anniversary_Schwab_Foundation_Gala_Dinner_44887783681-e1611132397581.jpg") no-repeat;
+}
+
+.ct-sub2 {
+  background: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/header-image-bernie-sitting-meme-analysis.png");
+}
+
+.ct-sub3 {
+  background: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Apple-AR-glasses-headset.jpg");
+}
+
+.ct-sub4 {
+  background: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1-copy-52.jpg");
+}
+
+.ct-sub5 {
+  background: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Untitled-design-13.jpg");
+}
+
+.ct-sub6 {
+  background: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/google-logo-podium.png");
+}
+
+.ct-sub7 {
+  background: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/dev-leadership-gq.png");
+}
+
+.ct-sub8 {
+  background: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/hummer-ev-future-car-love-hate-next-gmc-gm-ultium.jpg");
+}
+
+.ct-sub9 {
+  background: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/bloodlines.jpg");
+}
+
+.subtitle-right {
   background-size: 100% 100%;
+  background-position: 40%;
   flex: 0 0 96px;
+  width: 96px;
+  height: 96px;
 }
 
 .subtitle-txt {
@@ -501,7 +583,6 @@ a.active {
 }
 
 /* Footer */
-
 footer {
   display: flex;
   flex-direction: column;
