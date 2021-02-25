@@ -237,4 +237,12 @@
   .ld-img img{
     height: 200px;
   }
+
+  .highlight-title {
+    font-size: 60px;
+  }
+  
+  .highlight-title-2 {
+    font-size: 35px;
+  }
 }
