@@ -119,6 +119,15 @@
     border-left: 1px solid #f42;
     padding: 0 5px 0 5px;
   }
+
+  .categories-img {
+    flex: 1 1 500px;
+  }
+
+  .categories-subtitle-img {
+    justify-content: space-between;
+  }
+
 }
 
 @media (min-width: 1024px) {
