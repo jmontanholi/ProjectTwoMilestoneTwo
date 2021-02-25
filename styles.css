@@ -620,6 +620,8 @@ a.active {
 }
 
 .categories-li {
+  color: #555555;
+  font-size: 13px;
   padding: 10px 5px 10px 0;
   border-bottom: 0.5px solid rgba(211, 181, 181, 0.658);
 }
@@ -630,7 +632,8 @@ a.active {
   margin: 0 20px 20px 20px;
 }
 
-.ld-grid {
+.ld-grid,
+.ld-txt  {
   margin-left: 10px;
 }
 
@@ -648,10 +651,6 @@ a.active {
 .ld-content {
   display: flex;
   margin-top: 10px;
-}
-
-.ld-txt {
-  margin-left: 10px;
 }
 
 .ld-txt-main {
