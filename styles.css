@@ -6,6 +6,11 @@
   font-family: sans-serif;
 }
 
+.title-hover:hover {
+  color: black;
+  cursor: pointer;
+}
+
 /* Header */
 
 .mobile-nav {
@@ -145,26 +150,19 @@ a.active {
   height: 300px;
 }
 
+.highlight-hover:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
 .highlight-1 {
-  background: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg") no-repeat;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 1)), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg") no-repeat;
   position: relative;
   background-size: cover;
-  z-index: -2;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   grid-area: item1;
-}
-
-.highlight-1::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: -1;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 1));
 }
 
 .highlight-1-logo {
@@ -214,41 +212,17 @@ a.active {
 }
 
 .highlight-2 {
-  background: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Untitled-design-2021-01-26T112752.972-796x417.png") no-repeat;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 1)), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Untitled-design-2021-01-26T112752.972-796x417.png") no-repeat;
   background-size: 100% 100%;
   position: relative;
-  z-index: -2;
   grid-area: item2;
 }
 
-.highlight-2::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 1));
-  z-index: -1;
-}
-
 .highlight-3 {
-  background: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Gemini2-duplicates-monitor-alert-e1611566958933-796x420.png") no-repeat;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 1)), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Gemini2-duplicates-monitor-alert-e1611566958933-796x420.png") no-repeat;
   background-size: 100% 100%;
   position: relative;
-  z-index: -2;
   grid-area: item3;
-}
-
-.highlight-3::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 1));
-  z-index: -1;
 }
 
 .highlight-2,
@@ -256,6 +230,10 @@ a.active {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+}
+
+.highlight-txt a:hover {
+  color: white;
 }
 
 /* Latest News */
@@ -293,6 +271,17 @@ a.active {
   color: #aaa;
   font-size: 13px;
   margin-top: 5px;
+}
+
+.ln-txt-hover:hover {
+  color: #f42;
+  text-decoration: underline #f42;
+  cursor: pointer;
+}
+
+.ln-sub-hover:hover {
+  color: rgb(80, 80, 80);
+  cursor: pointer;
 }
 
 /* Latest funding */
