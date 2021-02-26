@@ -347,6 +347,10 @@ a.active {
   text-decoration: none;
 }
 
+.ct-img-txt-sub a:hover {
+  color: white !important; 
+}
+
 .categories-img-txt a {
   color: white;
 }
@@ -533,6 +537,10 @@ a.active {
   text-decoration: none;
 }
 
+.ct-img-txt-main:hover {
+  text-decoration: underline rgb(112, 112, 112);
+}
+
 .ct-img-txt-sub {
   color: #888;
 }
@@ -590,6 +598,11 @@ a.active {
   margin-top: 3px;
 }
 
+.subtitle-txt:hover {
+  text-decoration: underline #f42;
+  cursor: pointer;
+}
+
 .categories-subtitle-img {
   display: flex;
   flex: 1 1 80px;
@@ -604,8 +617,8 @@ a.active {
 .categories-ul {
   display: flex;
   flex-direction: column;
-  list-style-type: circle;
-  list-style-position: inside;
+  list-style-type: disc;
+  list-style-position: outside;
 }
 
 .categories-li {
@@ -613,6 +626,11 @@ a.active {
   font-size: 13px;
   padding: 10px 5px 10px 0;
   border-bottom: 0.5px solid rgba(211, 181, 181, 0.658);
+}
+
+.categories-li:hover {
+  color: rgb(29, 29, 29);
+  cursor: pointer;
 }
 
 /* Latest deals */
