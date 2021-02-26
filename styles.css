@@ -351,8 +351,13 @@ a.active {
   color: white;
 }
 
+.lf-title-txt a:hover,
 .lf-title-div a:hover {
   color: black;
+}
+
+.lf-body a:hover {
+  color: #333;
 }
 
 .lf-title {
