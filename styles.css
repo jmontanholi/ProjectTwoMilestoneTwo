@@ -664,6 +664,12 @@ a.active {
   font-weight: bold;
 }
 
+.ld-txt-main:hover {
+  color: #f42;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 .ld-txt-sub {
   margin-top: 5px;
 }
