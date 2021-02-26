@@ -1,12 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project 2: Building with Responsive Design - Milestone 1
+# Project 2: Building with Responsive Design - Milestone 2
 
 > In this project we are meant to make a responsive website based on this website: https://perma.cc/M5ZV-Q2D6
-
-# Project Screenshot
-
-> 
 
 ## Built With
 
@@ -39,9 +35,9 @@ To see the live Demo of the project click [here](https://jmontanholi.github.io/P
 
 👤 **João Vítor Montanholi Nunes**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [jmontanholi](https://github.com/jmontanholi)
+- Twitter: [MontanholiNunes](https://twitter.com/MontanholiNunes)
+- LinkedIn: [joaovitormontanholi](https://www.linkedin.com/in/joaovitormontanholi/)
 
 👤 **Eri-Ngozi Okereafor**
 
@@ -53,7 +49,7 @@ To see the live Demo of the project click [here](https://jmontanholi.github.io/P
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/jmontanholi/ProjectTwoMicroverse/issues).
+Feel free to check the [issues page](https://github.com/jmontanholi/ProjectTwoMilestoneTwo/issues).
 
 ## Show your support
 
